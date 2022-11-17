@@ -7,5 +7,5 @@ app.get('/', async (req, res) => {
 })
 
 app.listen(process.env.PORT, () => {
-    console.log(`Hello World Application is running on port ${process.env.PORT}`)
+    console.log(`Hello World, Application is running on port ${process.env.PORT}`)
 })
